@@ -28,7 +28,7 @@ There are two datasets residing in Local Directory:
 {"artist":null,"auth":"Logged In","firstName":"Walter","gender":"M","itemInSession":0,"lastName":"Frye","length":null,"level":"free","location":"San Francisco-Oakland-Hayward, CA","method":"GET","page":"Home","registration":1540919166796.0,"sessionId":38,"song":null,"status":200,"ts":1541105830796,"userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"39"}
 ```
 
-# Files
+# Project Files
 
 First we should define all the table create queries and insert statements in the 'sql_queries.py' file.
 
@@ -40,7 +40,7 @@ First we should define all the table create queries and insert statements in the
 
 'test.ipynb' is where we confirm your records were successfully inserted into each table and run sanity tests.
 
-# Database schema design and ETL pipeline
+# Database Schema
 
 'songplays' is our Fact Table. This contains records in log data associated with song plays. Primary key values from other tables are included  
 to make it easier to join with other tables and do various analytical tasks. Data is filtered to contain only information associated with 'NextSong' page. We've implemented auto incremental primary key value for 'songplay_id'.
