@@ -9,8 +9,8 @@ Then we'll build an ETL pipeline which will transfer data from the log and song 
 # Project Datasets
 There are two datasets residing in Local Directory:
 
-- **Song data:** >data/song_data
-- **Log data:** >data/log_data
+- **Song data:** > data/song_data
+- **Log data:** > data/log_data
 
 ## Song dataset
 - Subset of [Million Song Dataset](http://millionsongdataset.com)
